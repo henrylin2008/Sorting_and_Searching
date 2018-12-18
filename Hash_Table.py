@@ -99,3 +99,29 @@ class HashTable(object):
 
     def __setitem__(self,key,data):
         self.put(key,data)
+
+
+
+
+# In [4]:
+# h = HashTable(5)
+# In [5]:
+# # Put our first key in
+# h[1] = 'one'
+# In [6]:
+# h[2] = 'two'
+# In [7]:
+# h[3] = 'three'
+# In [8]:
+# h[1]
+# Out[8]:
+# 'one'
+# In [9]:
+# h[1] = 'new_one'
+# In [10]:
+# h[1]
+# Out[10]:
+# 'new_one'
+# In [12]:
+# print h[4]
+# None
