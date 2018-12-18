@@ -32,3 +32,12 @@ def gap_insertion_sort(arr,start,gap):
         
         # Set current value
         arr[position]=currentvalue
+
+
+
+# In [6]:
+# arr = [45,67,23,45,21,24,7,2,6,4,90]
+# shell_sort(arr)
+# arr
+# Out[6]:
+# [2, 4, 6, 7, 21, 23, 24, 45, 45, 67, 90]
